@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="slither-analyzer",
+    name="customSlither",
     description="Slither is a Solidity and Vyper static analysis framework written in Python 3.",
     url="https://github.com/crytic/slither",
     author="Trail of Bits",
