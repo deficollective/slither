@@ -8,7 +8,7 @@ import json
 class PrinterAuthModifier(AbstractPrinter):
     ARGUMENT = "auth"
     HELP = "Create a json with all functions using auth"
-    WIKI = "https://github.com/deficollective/slither.git"
+    WIKI = "https://github.com/trailofbits/slither/wiki/Printer-documentation#cfg"
 
     @staticmethod
     def get_msg_sender_checks(function: Function) -> List[str]:
