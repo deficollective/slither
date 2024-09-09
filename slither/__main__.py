@@ -165,7 +165,7 @@ def get_detectors_and_printers() -> Tuple[
     printers_ = [getattr(all_printers, name) for name in dir(all_printers)]
     printers = [p for p in printers_ if inspect.isclass(p) and issubclass(p, AbstractPrinter)]
 
-    print("printers")
+
     print(printers)
     # Handle plugins!
     if sys.version_info >= (3, 10):
